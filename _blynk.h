@@ -13,6 +13,8 @@ AsyncPing ping;
 //Check if internet is up an running.
 bool pingCheck = false;
 
+
+
 //Forward declaration of the function.
 void blynkSync();
 
