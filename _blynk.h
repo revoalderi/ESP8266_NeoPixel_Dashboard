@@ -11,11 +11,12 @@ WidgetTerminal terminal(TEXT_SENDER_WIDGET);
 AsyncPing ping;
 
 //Check if internet is up an running.
-bool pingCheck = false;
-
+bool pingCheck 
 //Forward declaration of the function.
 void blynkSync();
 
+
+//git
 void blynkInit()
 {
   matrix->fillScreen(0);
