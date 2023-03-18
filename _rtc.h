@@ -15,6 +15,7 @@ void ringAlarm(int,int,String);
 
 RtcDS1307<TwoWire> Rtc(Wire);
 
+
 //Defines the init of RTC
 void rtcInit()
 {
